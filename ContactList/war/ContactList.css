@@ -1,0 +1,93 @@
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+.gwt-Label{ 
+   font-size: 100%; 
+   font-weight: bold;
+   color:black;
+   whitespace: pre !important;
+   
+}
+.gwt-TextBox{
+	width: 100;
+	padding: 4px 8px 4px 4px;
+}
+
+.gwt-Button{
+    background-color: yellow;
+    box-shadow: 5px 5px 5px #888888;
+    top: 191px;
+    left: 700px;
+}
+.gwt-DialogBox .Caption {
+  background: #F1F1F1;
+  padding: 4px 8px 4px 4px;
+  cursor: default;
+  font-family: Arial Unicode MS, Arial, sans-serif;
+  font-weight: bold;
+  border-bottom: 1px solid #bbbbbb;
+  border-top: 5px solid #d0e4f6;
+  
+}
+
+.gwt-DialogBox .dialogContent {
+}
+.gwt-DialogBox .dialogMiddleCenter {
+  padding: 3px;
+  background: white;
+}
+
+.gwt-DialogBox .dialogMiddleleft {
+ overflow: hidden;
+}
+
+.gwt-DialogBox .dialogTopLeftInner {
+  width: 10px;
+  height: 8px;
+  zoom: 1;
+   overflow: hidden;
+}
+.gwt-DialogBox .dialogTopRightInner {
+  width: 12px;
+  zoom: 1;
+}
+.gwt-DialogBox .dialogBottomLeftInner {
+  width: 10px;
+  height: 12px;
+  zoom: 1;
+   overflow: hidden;
+}
+.gwt-DialogBox .dialogBottomRightInner {
+  width: 12px;
+  height: 12px;
+  zoom: 1;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
